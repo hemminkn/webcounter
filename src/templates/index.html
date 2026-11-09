@@ -9,12 +9,19 @@
   <div>nappia painettu {{ value }} kertaa</div>
   <form action="/increment" method="POST">
     <button type="submit">
-      Paina
+      paina
     </button>
   </form>
   <form action="/reset" method="POST">
     <button type="submit">
-      Nollaa
+      nollaa
+    </button>
+  </form>
+  <div>aseta arvo:</div>
+  <form action="/set" method="POST">
+    <input type="text" name="integer">
+    <button type="submit">
+      aseta
     </button>
   </form>
 </body>
